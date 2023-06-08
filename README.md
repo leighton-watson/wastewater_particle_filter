@@ -7,7 +7,7 @@ For more information, see Watson et al. (2023).
 
 ### How do I get set up? ###
 * Clone this repository to your local directory.
-* _model_ contains the model code. The example scipt _main.m_ will run the code with example parameters and plot the outputs. 
+* _model_ contains the model code. The example scipt _main.m_ will run the code with example parameters and plot the outputs. Paths to the model code and data directory are defined in _definePaths.m_. This will need to be modified for your operating system and directory locations. 
 * _make_paper_figs_ contains the script files used to make the figures in the manuscript Watson et al. (2023). 
 * _data_ contains reported cases and wastewater data for Aotearoa New Zealand up to May 2023. For the most up-to-date data, refer to the Ministry of Health [github page](https://github.com/minhealthnz/nz-covid-data) for case data and the ESR [github page](https://github.com/ESR-NZ/covid_in_wastewater/tree/main/data) for wastewater data. Data from other jurisdictions can be used and the files in this directory illustrate the required format. 
 
